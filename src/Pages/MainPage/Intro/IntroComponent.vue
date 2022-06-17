@@ -1,0 +1,67 @@
+<template lang="pug">
+section.section.intro
+		.intro__bg
+		.section__container.section__container--df
+			.intro__left
+				h1.intro__title.title.title--lg(data-aos="fade-left" data-aos-delay="200")
+					| The future of#[br] NFT art is here
+				p.intro__description.text.text--lg.text--intro(data-aos="fade-right" data-aos-delay="300")
+					| A highly-curated platform for creating, collecting and trading unique NFTs. Start exploring now
+				.intro__buttons
+					div(data-aos="fade-up" data-aos-delay="400")
+						a.button.button--md(href="")
+							.button__inner
+								| Connect wallet
+			.intro__right
+				.intro__item.intro__item--1
+					.intro__image
+						img(src="@/assets/images/03_images/@2x/card_4@2x.jpg" alt="image")
+						img(src="@/assets/images/03_images/@2x/card_1@2x.jpg" alt="image")
+					.intro__bottom
+						.intro__info
+							.intro__subtitle
+								| Buy, sell, and showcase
+							.intro__subtext
+								| from leading creators and brands around the world
+						a.button.button--small(href="")
+							.button__inner
+								| Explore
+				.intro__item.intro__item--2
+					.intro__image
+						img(src="@/assets/images/03_images/@2x/card_5@2x.jpg" alt="image")
+						img(src="@/assets/images/03_images/@2x/card_2@2x.jpg" alt="image")
+					.intro__bottom
+						.intro__info
+							.intro__subtitle
+								| Create your collection
+							.intro__subtext
+								| Add social links, a description, profile & banner images
+						a.button.button--small(href="")
+							.button__inner
+								| Collect
+				.intro__item.intro__item--3
+					.intro__image
+						img(src="@/assets/images/03_images/@2x/card_6@2x.jpg" alt="image")
+						img(src="@/assets/images/03_images/@2x/card_3@2x.jpg" alt="image")
+					.intro__bottom
+						.intro__info
+							.intro__subtitle
+								| Add your NFTs
+							.intro__subtext
+								| Upload your work (image, video, audio, or 3D art)
+						a.button.button--small(href="")
+							.button__inner
+								| Collect
+		.intro__bg
+
+</template>
+
+<script>
+export default {
+	name: "IntroComponent"
+}
+</script>
+
+<style lang="scss">
+@import "Styles";
+</style>

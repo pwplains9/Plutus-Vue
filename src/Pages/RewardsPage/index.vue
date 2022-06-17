@@ -1,0 +1,113 @@
+<template lang="pug">
+section.section
+		.rewards
+			.rewards__container.section__container
+				.rewards__stitle.title.title--sm
+					| Rewards
+				.text.text--xs
+					| Earn crypto just by staking, trading and listing.
+					br.for-desktop
+					| Plutust rewarding.
+				.rewards__buttons
+					a.button.button--rewards(href="")
+						.button__inner
+							| Buy Plutus
+					a.button.button--transparent.button--icon(href="")
+						.button__inner
+							svg-icon(name='plus')
+							| Add to wallet
+				.rewards__filters
+					.rewards__filter.is-current
+						| Staking
+					.rewards__filter
+						| Listing & Trading
+				.rewards__items
+					.rewards__item
+						.rewards__left
+							.rewards__image.rewards__image--1
+								svg-icon(name='pending')
+							.rewards__content
+								.rewards__title
+									| Plutus Compounder
+								.rewards__links
+									a.rewards__link(href="")
+										| Stake Plutus
+									a.rewards__link(href="")
+										| Earn Plutus
+								
+								.rewards__text.for-desktop
+									| WETH rewards auto compound into more Plutus!
+									| Total Plutus staked: 172,426,834 ($275,882,935)
+						.rewards__text.for-mobile
+							| WETH rewards auto compound into more Plutus!
+							| Total Plutus staked: 172,426,834 ($275,882,935)
+						.rewards__center
+							.rewards__price
+								svg-icon(name='question')
+								| 149.05% APY
+						.rewards__stakes
+							.rewards__select
+								| Your stake
+								svg-icon(name='chevron_down')
+					.rewards__item
+						.rewards__left
+							.rewards__image.rewards__image--2
+								img(src="@/assets/images/00_logo/plutus_mark.png" alt="logo")
+							.rewards__content
+								.rewards__title
+									| Plutus Staking
+								.rewards__links
+									a.rewards__link(href="")
+										| Stake Plutus
+									a.rewards__link(href="")
+										| Earn Plutus & WETH
+								.rewards__text.for-desktop
+									| Total LOOKS staked:344,140,409 ($550,624,654)
+						.rewards__text.for-mobile
+							| Total LOOKS staked:344,140,409 ($550,624,654)
+						.rewards__center
+							.rewards__price
+								svg-icon(name='question')
+								| 102.57% APR
+						.rewards__stakes
+							.rewards__select
+								| Your stake
+								svg-icon(name='chevron_down')
+							.rewards__select
+								| Rewards to Collect
+								svg-icon(name='chevron_down')
+		.rewards-gets
+			.title.title--sm.title--center.for-desktop
+				| Get the token that#[br.for-mobile] powers Plutus.
+			.title.title--sm.for-mobile
+				| Get the token that#[br.for-mobile] powers Plutus.
+			.text.text--xs.text--center.text--rewards.for-desktop
+				| Plutus helps you earn rewards. It’s neat.
+			.text.text--xs.text--rewards.for-mobile
+				| Plutus helps you earn rewards. It’s neat.
+			.rewards-gets__buttons
+				a.button.button--rewards(href="")
+					.button__inner
+						| Buy Plutus
+				a.button.button--transparent.button--icon(href="")
+					.button__inner
+						svg-icon(name='plus')
+						| Add to wallet
+			.text.text--xxs.text--center.text--gray.for-desktop
+				| The rates shown on this page are only provided for your reference: APR and APY are calculated based on current ROI.
+				| The actual rates will fluctuate a lot according to many different factors, including token prices, trading volume, liquidity, amount staked, and more.
+			.text.text--xxsr.text--gray.for-mobile
+				| The rates shown on this page are only provided for your reference: APR and APY are calculated based on current ROI.
+				| The actual rates will fluctuate a lot according to many different factors, including token prices, trading volume, liquidity, amount staked, and more.
+
+</template>
+
+<script>
+export default {
+	name: "RewardsComponent"
+}
+</script>
+
+<style lang="scss">
+@import "Styles";
+</style>

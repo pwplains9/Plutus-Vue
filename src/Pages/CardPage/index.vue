@@ -1,0 +1,346 @@
+<template lang="pug">
+section.card
+		
+		.card__container.section__container.section__container--card
+			.card__left
+				.card__varifitaion
+					| White Sands Parcel Pass
+					svg-icon(name='verified_f')
+				.card__title
+					| Genesis Parcel Pass
+				.card__info.card__info--1
+					div
+						| Top Offer
+						| 0.361 ETH
+					div
+						| Unlisted
+				.card__navs
+					.card__nav.is-current(data-tab="1")
+						| About
+					.card__nav(data-tab="2")
+						| Offers
+					.card__nav(data-tab="3")
+						| Activity
+				.card__tabs
+					.card__tab.is-active(data-tab="1")
+						.card__text
+							| This is one of 3,000 Genesis Parcel Passes. It grants the holder access to a private islet as well as a variety of other membership benefits inside the White Sands metaverse.
+						.card__info-top
+							| Properties
+							span
+								| Rank N/A
+						.card__info
+							.card__info-prev
+								span Coordinates
+								| 6640 66 3709
+							.card__info-right
+								| -
+								span 1 (0.03%)
+						.card__info
+							.card__info-prev
+								span Mystery resource
+								| ???
+							.card__info-right
+								| 0.6399
+								span 104 (3.47%)
+						.card__info
+							.card__info-prev
+								span Coordinates
+								| World Map
+							.card__info-right
+								| 0.6399
+								span 60 (2.0%)
+						.card__info.card__info--black
+							.card__item
+								| Token ID
+								span
+									| 2505
+							.card__item
+								| Contract
+								span.color
+									| 0x…F4AD
+									svg-icon(name='external')
+							.card__item
+								| Blockchain
+								span Ethereum
+							.card__item
+								| Token Standard
+								span ERC721
+							.card__item.card__item--last
+								| Creator Royalties
+								span
+									| 5.0%
+									svg-icon(name='question')
+					.card__tab.is-hidden(data-tab="2")
+						.select.select--offer
+							| Price Descending
+							svg-icon(name='chevron_down')
+						.card__info
+							.card__info-left
+								.card__info-offer
+									| 80 ETH
+									span
+										| 13% below floor
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-collection
+									| Collection
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+									.card__info-from
+										| Expires in:
+										span
+											| 30 days
+						.card__info
+							.card__info-left
+								.card__info-offer
+									| 80 ETH
+									span
+										| 13% below floor
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-collection
+									| Collection
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+									.card__info-from
+										| Expires in:
+										span
+											| 30 days
+						.card__info
+							.card__info-left
+								.card__info-offer
+									| 80 ETH
+									span
+										| 13% below floor
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-collection
+									| Collection
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+									.card__info-from
+										| Expires in:
+										span
+											| 30 days
+						.card__footer
+							a.button.button--transparent.button--load(href="")
+								.button__inner
+									| Load more
+					.card__tab.is-hidden(data-tab="3")
+						.card__activitys
+							.card__activitys-item.is-select
+								| Mint
+							.card__activitys-item
+								| Transfer
+							.card__activitys-item
+								| Sale
+							.card__activitys-item
+								| List
+							.card__activitys-item
+								| Offer
+							.card__activitys-item
+								| Cancel listing
+							.card__activitys-item
+								| Cancel offer
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--mint
+									| Mint
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--transfer
+									| Transfer
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--sale
+									| Sale
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--list
+									| List
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--offer
+									| Offer
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--listing
+									| Cancel listing
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						
+						.card__info
+							.card__info-left
+								.card__info-collection.card__info-collection--coffer
+									| Cancel offer
+								.card__info-from
+									| From:
+									span
+										| 5F13fB
+							.card__info-right
+								.card__info-offer
+									
+									span
+										| 13% below floor
+									| 80 ETH
+								.card__info-bottom
+									.card__info-from
+										| 5 hours ago
+										svg-icon(name='external')
+						.card__none.is-hidden
+							.card__none-icon
+								img(src="@/assets/images/05_card/none.png")
+							.card__none-title
+								| No activities found
+							.card__none-description
+								| Reset filters to show activities
+							a.button.button--transparent.button--load(href="")
+								.button__inner
+									| Reset filters
+						.card__footer
+							a.button.button--transparent.button--load(href="")
+								.button__inner
+									| Load more
+			.card__right
+				.card__image
+					img(src="@/assets/images/05_card/image.jpg")
+
+
+
+</template>
+
+<script>
+import $ from "jquery"
+import {gsap} from "gsap";
+import helpers from "@/helpers";
+export default {
+	name: "CardComponent",
+	mounted() {
+		if ($('.card__navs').length) {
+			let $tabNav = helpers.$document.find('.card__nav');
+			
+			$tabNav.on('click', (event) => {
+				const $this = $(event.currentTarget);
+				
+				$tabNav.removeClass('is-current');
+				
+				$this.addClass('is-current');
+				
+				gsap.timeline()
+						.to(helpers.$document.find('.card__tab.is-active'), 0.5, {
+									autoAlpha: 0,
+									clearProps: true,
+								}
+						)
+						.call(() => {
+							helpers.$document.find('.card__tab').addClass('is-hidden').removeClass('is-active');
+							helpers.$document.find(`.card__tab[data-tab='${$this.data('tab')}']`).removeClass('is-hidden').addClass('is-active');
+						})
+						.from(helpers.$document.find(`.card__tab[data-tab='${$this.data('tab')}']`), 0.5, {
+							autoAlpha: 0,
+							clearProps: true,
+						});
+			});
+		}
+	}
+}
+</script>
+
+<style lang="scss">
+@import "Styles";
+</style>
