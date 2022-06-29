@@ -8,6 +8,7 @@ import DocsItem from '@/Pages/DocsItem';
 import DocsPage from '@/Pages/DocsPage';
 import Rewards from '@/Pages/RewardsPage';
 import Team from '@/Pages/TeamPage';
+import Profile from '@/Pages/ProfilePage';
 
 const routes = [
     {
@@ -54,6 +55,11 @@ const routes = [
         path: '/team',
         name: 'Team',
         component: Team,
+    },
+    {
+        path: '/profile',
+        name: 'Profile',
+        component: Profile,
     },
 ];
 

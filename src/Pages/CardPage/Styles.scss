@@ -164,6 +164,7 @@
       .card__tab & {
         flex-flow: column;
         align-items: flex-end;
+
         @include mobile {
           white-space: nowrap;
           margin-left: vc(-115);

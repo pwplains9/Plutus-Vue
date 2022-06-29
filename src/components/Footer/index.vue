@@ -28,7 +28,7 @@ footer.footer
 			.footer__copy
 				span
 					span.footer__copy-text
-						| made by
+						| designed by
 					a(href='https://roobinium.io' target='_blank' rel='external nofollow') roobinium.io
 				
 				.footer__copyright
